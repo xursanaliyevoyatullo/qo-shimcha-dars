@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
+}
+
+a:hover {
+    color: orangered;
+}
+
+.car, .menu {
+    height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.menu {
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)), url("../images/acula-merz.jpg");
+}
+
+.gelik-car {
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)),url("../images/gelik-car.jpg");
+}
+
+.rolce-car {
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)), url("../images/rolce-royce.jpg");
+}
+
+.mustang-car {
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)), url("../images/mustang.jpg");
+}
+
+.acura-car {
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)), url("../images/acura.jpg");
+}
+
+.dodge-car {
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)), url("../images/dodge.jpg");
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu li:not(:last-child) {
+    margin-bottom: 1.2rem;
+}
