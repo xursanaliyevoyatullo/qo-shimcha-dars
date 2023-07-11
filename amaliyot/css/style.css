@@ -62,7 +62,7 @@ a:hover {
 }
 
 .acura-car {
-    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)), url("../images/acura.jpg");
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, 0.5)), url("../images/acura.jpg");
 }
 
 .dodge-car {
